@@ -10,3 +10,7 @@ Get ensure you delete all you real files and directories before trying.
 
 This is a replacement for former separate repositories and works well
 with boxen.
+
+## credits
+
+[Bradley Wright's dotfiles](https://github.com/bradleywright/dotfiles)
