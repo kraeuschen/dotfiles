@@ -1,6 +1,6 @@
 SOURCE := $(CURDIR)
 TARGET := $(HOME)
-FILES := bash_profile bashrc functions gitconfig gitignore inputrc screenrc slate.js zshrc zshenv
+FILES := bash_profile bashrc functions gitconfig gitignore inputrc screenrc slate.js zshrc zshenv vimrc
 
 UNAME := $(shell uname)
 
@@ -19,6 +19,7 @@ install_dotfiles:
 		ln -sf $(SOURCE)/$$f $(TARGET)/.$$f; \
 	done
 	@ln -sf $(SOURCE)/oh-my-zsh $(TARGET)/.oh-my-zsh
+	@ln -sf $(SOURCE)/vim $(TARGET)/.vim
 	@ln -sf $(SOURCE)/bin $(TARGET)/
 
 clean_dotfiles:
@@ -27,6 +28,7 @@ clean_dotfiles:
 	done
 	@-unlink $(TARGET)/.oh-my-zsh
 	@-unlink $(TARGET)/bin
+	@-unlink $(TARGET)/.vim
 
 install: install_dotfiles install_tmux
 
