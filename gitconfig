@@ -213,3 +213,5 @@ process = git-lfs filter-process
     remote = origin
     merge = refs/heads/master
     rebase = true
+[github]
+	user = kraeuschen
