@@ -7,85 +7,31 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 tap "github/bootstrap"
 cask "homebrew/cask-versions/java8"
-brew "alexjs"
-brew "analog"
-brew "atomicparsley"
-brew "cmake"
-brew "elasticsearch@2.4", restart_service: true, link: true
-brew "exa"
-brew "fd"
-brew "fork-cleaner"
-brew "get_iplayer"
 brew "git"
 brew "git-imerge"
 brew "git-when-merged"
 brew "go"
 brew "glide"
 brew "openssl"
-brew "readline"
-brew "xz"
 brew "python"
-brew "grc"
-brew "heroku"
-brew "hub"
-brew "hyperscan"
 brew "imagemagick"
-brew "jansson"
-brew "oniguruma"
 brew "jq"
 brew "jsonlint"
-brew "launch_socket_server", restart_service: true
-brew "launchdns", restart_service: true
 brew "libyaml"
 brew "lzip"
 brew "mas"
-brew "memcached", restart_service: true
-brew "mysql", restart_service: true
-brew "nginx", restart_service: true
-brew "node-build"
-brew "nodenv"
-brew "postgresql", restart_service: true
-brew "ruby-build"
-brew "rbenv"
-brew "rbenv-default-gems"
-brew "redis", restart_service: true
-brew "ripgrep"
-brew "shellcheck"
-brew "ssh-copy-id"
 brew "wget"
-brew "write-good"
 cask "appcleaner"
-cask "doxie"
 cask "dropbox"
-cask "fork"
 cask "google-chrome"
-cask "keepingyouawake"
-cask "licecap"
-cask "muzzle"
-cask "qbserve"
-cask "quitter"
-cask "sizeup"
 cask "sketch"
-cask "steam"
-cask "subler"
-cask "transmission"
+cask "slack"
+cask "firefox"
+cask "iterm2"
+cask "docker"
 cask "vagrant"
 cask "viscosity"
 cask "visual-studio-code"
-cask "vmware-fusion"
+cask "virtualbox"
 cask "whatsapp"
-cask "zoomus"
-mas "1Password 7", id: 1333542190
-mas "Fantastical 2", id: 975937182
-mas "GarageBand", id: 682658836
-mas "iA Writer", id: 775737590
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Mactracker", id: 430255202
-mas "Numbers", id: 409203825
-mas "OneDrive", id: 823766827
-mas "Pages", id: 409201541
-mas "Reeder", id: 880001334
-mas "Slack", id: 803453959
-mas "Tweetbot", id: 557168941
 mas "Xcode", id: 497799835
