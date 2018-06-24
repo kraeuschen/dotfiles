@@ -58,3 +58,5 @@ cd fonts
 cd ..
 rm -rf fonts
 
+echo "Setting macos preferences"
+source ~/.macos
