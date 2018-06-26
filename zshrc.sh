@@ -1,7 +1,7 @@
 source  ~/powerlevel9k/powerlevel9k.zsh-theme
 
 # User configuration
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH
 
 # Virtual Envs
 export WORKON_HOME=$HOME/.virtualenvs
