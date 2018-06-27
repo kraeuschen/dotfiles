@@ -35,4 +35,5 @@ cask "viscosity"
 cask "visual-studio-code"
 cask "virtualbox"
 cask "whatsapp"
+cask "intellij-idea-ce"
 mas "Xcode", id: 497799835
