@@ -128,3 +128,8 @@ fi
 
 # added by travis gem
 [ -f /Users/jankrause/.travis/travis.sh ] && source /Users/jankrause/.travis/travis.sh
+
+# golang
+export GOPATH=$HOME/work/go # don't forget to change your path correctly!
+export GOROOT=/usr/local/bin/
+export PATH=$PATH:$GOPATH/bin
