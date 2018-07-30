@@ -60,3 +60,7 @@ rm -rf fonts
 
 echo "Setting macos preferences"
 source ~/.macos
+
+echo "pip"
+sudo easy_install pip
+sudo pip install virtualenv virtualenvwrapper

@@ -12,6 +12,7 @@
     "editor.renderLineHighlight": "none",
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
+    "editor.fontSize": 14,
     "editor.minimap.enabled": false,
     "editor.glyphMargin": false,
     "editor.renderIndentGuides": true,
@@ -33,4 +34,3 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
 }
-
