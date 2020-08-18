@@ -17,11 +17,6 @@ fi
 
 # PATHS
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-PATH=$PATH:$HOME/work/packer # add packer io
-PATH=$PATH:$HOME/work/terraform
-
-export GOPATH=$HOME/work/go
-export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 
 # source  ~/powerlevel9k/powerlevel9k.zsh-theme
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
@@ -43,26 +38,6 @@ setopt share_history # share command history data
 export EDITOR='vim'
 export VISUAL='vim'
 export PAGER='less'
-
-export TF_VAR_user='jan'
-
-# set where virutal environments will live
-export WORKON_HOME=$HOME/.virtualenvs
-# ensure all new environments are isolated from the site-packages directory
-export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
-# use the same directory for virtualenvs as virtualenvwrapper
-export PIP_VIRTUALENV_BASE=$WORKON_HOME
-# makes pip detect an active virtualenv and install to it
-export PIP_RESPECT_VIRTUALENV=true
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
-export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
-
-if [[ -r /usr/local/bin/virtualenvwrapper.sh ]]; then
-        source /usr/local/bin/virtualenvwrapper.sh
-else
-	echo "WARNING: Can't find virtualenvwrapper.sh"
-fi
-
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/jankrause/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/jankrause/Downloads/google-cloud-sdk/path.zsh.inc'; fi
